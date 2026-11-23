@@ -1,4 +1,4 @@
-# revup-com
+# Revup
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-revup-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://revup.com/
+Revup provides promotion marketing and customer intelligence software for consumer brands and agencies. Its platform enables creation of sweepstakes, contests, giveaways, instant wins, forms, quizzes, surveys and purchase sweepstakes, turning engagement into unified customer intelligence. Revup offers key facts, product details, pricing, support, and FAQs on its site.
+
+**Areas:** Promotion · Marketing · Sweepstakes · Customer-Intelligence · Software
+
+## Revup on APIs.io
+
+Everything profiled for Revup is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/revup-com/](https://apis.io/providers/revup-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Revup Guides API](https://apis.io/apis/revup-com/revup-guides-api/) — Documentation for Revup promotion marketing guides and API reference (no public machine‑readable spec found).
+- [Revup API](https://apis.io/apis/revup-com/revup-com-api/) — Revup API as documented publicly: 21 operations. Contract generated from the documentation by API Evangelist (2026-11-23); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Revup Com Webhooks](https://apis.io/asyncapis/revup-com/revup-com-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1PromotionsPromotionidParticipantsParticipantidRespon](https://apis.io/schemas/revup-com/revup-com-get-api-v1-promotions-promotionid-participants-participantid-respon/)
+- [GetApiV1PromotionsPromotionidWinnersResponse](https://apis.io/schemas/revup-com/revup-com-get-api-v1-promotions-promotionid-winners-response/)
+- [GetPromotionsPromotionidParticipantsResponse](https://apis.io/schemas/revup-com/revup-com-get-promotions-promotionid-participants-response/)
+- [GetPromotionsPromotionidResponse](https://apis.io/schemas/revup-com/revup-com-get-promotions-promotionid-response/)
+- [GetPromotionsPromotionidWinnersResponse](https://apis.io/schemas/revup-com/revup-com-get-promotions-promotionid-winners-response/)
+- [GetPromotionsResponse](https://apis.io/schemas/revup-com/revup-com-get-promotions-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Revup Com Context](https://apis.io/jsonld/revup-com/revup-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Revup API Rules](https://apis.io/rules/revup-com/revup-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Revup Authentication](https://apis.io/security/revup-com/revup-com-authentication/)
+- [Revup Domain Security](https://apis.io/security/revup-com/revup-com-domain-security/)
+- [Revup Trust Center](https://apis.io/security/revup-com/revup-com-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Revup Plans Pricing](https://apis.io/plans/revup-com/revup-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://revup.com/)
+- [Documentation](https://help.revup.com/)
+- [Getting started](https://help.revup.com/en/articles/1860987-integrations-overview-and-shared-setup-concepts)
+- [Pricing](https://revup.com/pricing)
+- [Support](https://help.revup.com)
+- [Changelog](https://revup.com/changelog)
+- [Blog](https://revup.com/blog/)
+- [Security](https://revup.com/security/)
+- [Terms of service](https://revup.com/terms/)
+- [Privacy policy](https://revup.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 56.3** — strong · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 55.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.0 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 65.5 |
+
+**Agent readiness 38.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/revup-com/](https://apis.io/providers/revup-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Revup: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/revup-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
